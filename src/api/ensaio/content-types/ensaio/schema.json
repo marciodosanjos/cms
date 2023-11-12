@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ensaios",
+  "info": {
+    "singularName": "ensaio",
+    "pluralName": "ensaios",
+    "displayName": "Ensaios",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "TItle": {
+      "type": "string",
+      "required": true
+    },
+    "Content": {
+      "type": "richtext"
+    },
+    "Excerpt": {
+      "type": "text",
+      "required": true
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

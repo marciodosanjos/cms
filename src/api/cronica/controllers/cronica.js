@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * concurso controller
+ * cronica controller
  */
 
 const { createCoreController } = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::concurso.concurso');
+module.exports = createCoreController('api::cronica.cronica');

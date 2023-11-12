@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reportagens",
+  "info": {
+    "singularName": "reportagem",
+    "pluralName": "reportagens",
+    "displayName": "Reportagens",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Excerpt": {
+      "type": "string",
+      "required": true
+    },
+    "Content": {
+      "type": "richtext"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

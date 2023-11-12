@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * concurso router
+ * ensaio router
  */
 
 const { createCoreRouter } = require('@strapi/strapi').factories;
 
-module.exports = createCoreRouter('api::concurso.concurso');
+module.exports = createCoreRouter('api::ensaio.ensaio');
